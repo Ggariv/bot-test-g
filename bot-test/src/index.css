@@ -1,0 +1,120 @@
+body {
+  background-color: lightgrey;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Main site */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.add-bot-button {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.add-bot-button:hover {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
+nav a {
+  margin: 5px;
+}
+
+/* Configure bot */
+.configure-bot {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.configure-bot form {
+  display: flex;
+  flex-direction: column;
+}
+
+.configure-bot label,
+.configure-bot input,
+.configure-bot select {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-row button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.button-row button:hover {
+  background-color: rgb(40, 50, 141);
+  color: white;
+}
+
+/* Category bot */
+.category-bot {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.category-bot form {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-bot label,
+.category-bot input,
+.category-bot select {
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+/* finish bot */
+.finish-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.finish-bot button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.finish-bot button:hover {
+  background-color: rgb(40, 50, 141);
+  color: white;
+}
