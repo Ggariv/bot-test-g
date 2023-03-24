@@ -4,7 +4,7 @@ The following project is a bot-creator prototype.
 This system will allow users to create their own bots based on a set of predetermined parameters.
 
 ## Link Access
-Access to the Bot-creator site through the [following link](Heroku)
+Access to the Bot-creator site through the [following link](http://Ggariv.github.io/bot-test)
 
 ## User Story
 
